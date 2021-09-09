@@ -1,0 +1,16 @@
+.footerContainer{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #f0f2f5;
+}
+
+.footertext{
+    color: #0b9c4c;
+    display: flex;
+    align-items: center;
+}

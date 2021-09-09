@@ -1,0 +1,313 @@
+.homeContainer{
+    width: 100vw;
+    height: calc(100vh - 90px);
+    background-color: #f0f2f5;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #4ff10f4d;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(53, 150, 7);
+    border-radius: 10px;
+}
+
+.topWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftBoxHome{
+    flex: 8;
+    display: flex;
+    margin: 40px ;
+    border: 1px solid #0b9c4c;
+    border-radius: 10PX;
+    height: 100PX;
+}
+
+.leftImgBox{
+    flex: 2;
+    background-color: #0b9c4c;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;    
+    display: flex;
+    align-items: center;
+}
+
+.profImage{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.userDetailsWrapper{
+    flex: 5;
+    margin: auto;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.userEmail{
+    margin-left: 20px;
+    color: gray;
+}
+
+.userTown{
+    margin-left: 20px;
+    color: gray;
+}
+
+.pageCountWrapper{
+    flex: 4;
+    margin-top: 10px;
+}
+
+.pageCountTitle{
+    font-weight: 500;
+    color: gray;
+    margin-right: 2px;
+    text-align: center;
+}
+
+.pageCount{
+    display: flex;
+    justify-content: center;
+
+}
+
+.hint{
+    margin-top: 3px;
+    font-size: 12px;
+    color: darkgreen;
+    text-align: center;
+}
+
+.pageCountBtn{
+    margin-top: 7px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0b9c4c;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logOutWrapper{
+    flex: 1;
+    background-color: #0b9c4c;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;    
+    display: flex;
+    align-items: center;
+}
+
+.logoutIcon{
+    margin: auto;
+    color: white;
+}
+
+.rightBoxHome{
+    flex: 4;
+    display: flex;
+    margin: 40px;
+    border: 1px solid #0b9c4c;
+    border-radius: 10PX;
+    height: 100PX;
+    justify-content: center;
+}
+
+.pageDetailsWrapper{
+    flex: 8;
+}
+
+.pageSelectText{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #0b9c4c;
+}
+
+.pageSelectOption{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.selectorSTyle{
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.selectorSTyle:focus{
+    outline: none;
+}
+
+.pageLogoWrapper{
+    flex: 4;
+    background-color: #0b9c4c;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageLogoImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.homeBottomWrapper{
+    border: 1px dashed #0b9c4c;
+    display: flex;
+    height: 470px;
+    margin: 5px 40px;
+    border-radius: 10px;
+}
+
+.homeLeftContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px dashed #0b9c4c;
+}
+
+.leftTitleText{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #0b9c4c;
+    margin-top: 20px;
+    font-family: 'Permanent Marker', cursive !important;
+}
+
+.leftImgContainer{
+    height: 250px;
+    width: 450px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.leftImgCss{
+    height: 150px;
+    width: 420px;
+    border-radius: 10px;
+    object-fit: fill;
+    margin: auto;
+}
+
+.txtAreaContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.leftBtnStatus{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.txtArea{
+    margin: auto;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.txtArea:focus{
+    outline: none;
+}
+
+.publishBtn{
+    width: 420px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0b9c4c;
+    color: white;
+    cursor: pointer;
+}
+
+.publishBtnBorder{
+    width: 420px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #0b9c4c;
+    background-color: #f0f2f5;
+    color: #0b9c4c;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+.homeMiddleContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px dashed #0b9c4c;
+}
+
+.homeRightContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightImgContainer{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.rightImgCss{
+    height: 270px;
+    width: 270px;
+    border-radius: 10px;
+    margin: auto;
+}

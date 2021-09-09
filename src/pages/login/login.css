@@ -1,0 +1,104 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.loginLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.loginLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color: #0b9c4c;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginDesc{
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loginImg{
+    text-align: center;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.serviceList{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.serviceListItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.serviceText{
+    margin-left: 10px;
+}
+
+.loginRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginBox{
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginBtnContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.loginButton{
+    border-radius: 10px;
+    border: none;
+    background-color: #0b9c4c;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.loginButton:focus{
+    outline: none;
+}

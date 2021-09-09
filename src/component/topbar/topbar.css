@@ -1,0 +1,20 @@
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #0b9c4c;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+    font-family: 'Permanent Marker', cursive !important;
+}
