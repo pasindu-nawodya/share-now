@@ -1,6 +1,7 @@
 import FacebookLogin from 'react-facebook-login';
 import { useHistory } from "react-router-dom";
 import { Facebook, Share, CheckCircleOutline } from '@material-ui/icons';
+import env from "react-dotenv";
 import './login.css';
 
 export default function Login() {
@@ -48,7 +49,7 @@ export default function Login() {
                         </div>
                         <div className="loginBtnContainer">
                             <FacebookLogin
-                                appId="906855699914929"
+                                appId={env.APP_KEY}
                                 autoLoad={false}
                                 fields="name,email,picture,hometown"
                                 callback={responseFacebook}
