@@ -11,7 +11,7 @@ export default function Login() {
     const responseFacebook = (response) => {
 
         console.log(response);
-
+        console.log("test commit")
         if(response.status !== "unknown"){            
             history.push({
             pathname: '/home',
