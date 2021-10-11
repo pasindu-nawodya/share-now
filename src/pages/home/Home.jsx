@@ -81,7 +81,8 @@ export default function Home() {
     }
 
     const generateQuoteImg = () =>{
-        setqImage("https://source.unsplash.com/featured/?quote");
+        setqImage("https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8cXVvdGV8fHx8fHwxNjMzOTI4MjI2&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+        alert("Image Generated Succesfully!")
     }
 
     const publishPhoto = () =>{
