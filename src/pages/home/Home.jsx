@@ -33,6 +33,7 @@ export default function Home() {
         axios.get("https://graph.facebook.com/"+user.id+"/accounts?access_token="+acctoken)
         .then(resp =>{
             setAllPageDetails(resp.data);
+            console.log(resp.data);
         });
     }
 
